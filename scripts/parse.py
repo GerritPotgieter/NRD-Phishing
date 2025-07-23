@@ -3,8 +3,8 @@ import re
 
 # Define paths
 root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-input_file = os.path.join(root_dir, "NRDs", "nrd-14day.txt")
-output_file = os.path.join(root_dir, "Output", "matched_domains2.txt")
+input_file = os.path.join(root_dir, "NRDs", "nrd-30day_part2.txt") # Adjust this path as needed
+output_file = os.path.join(root_dir, "Output", "matched_domains_nrd30day_part2.txt") # Rename to desired output file name 
 
 # Define regex patterns
 pattern_coza = re.compile(r"\.co\.za$", re.IGNORECASE)
