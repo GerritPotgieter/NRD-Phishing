@@ -87,9 +87,20 @@ def main():
 
     for filename in sorted(os.listdir(input_dir)):
         file_path = os.path.join(input_dir, filename)
+
+        # Skip directories or non-files
         if not os.path.isfile(file_path):
             continue
+
+        # Check if output already exists for this file
+        output_file_path = os.path.join(output_dir, filename)
+        if os.path.exists(output_file_path):
+            print(f"[⏩] Skipping already parsed file: {filename}")
+            continue
+
+        # Otherwise, parse the file
         parse_file(file_path, filename)
+
 
 if __name__ == "__main__":
     main()

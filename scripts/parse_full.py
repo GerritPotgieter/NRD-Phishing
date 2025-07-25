@@ -3,20 +3,22 @@ import re
 
 # Define paths
 root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-input_dir = os.path.join(root_dir, "nrd-30days-free.txt")
+input_file = os.path.join(root_dir, "nrd-30days-free.txt")  # Single file
 output_dir = os.path.join(root_dir, "Output")
 os.makedirs(output_dir, exist_ok=True)
 
 # Define regex patterns
 pattern_coza = re.compile(r"\.co\.za$", re.IGNORECASE)
 pattern_africa = re.compile(r"\.africa$", re.IGNORECASE)
+
 pattern_absa = re.compile(r"absa", re.IGNORECASE)
 pattern_aabsa = re.compile(r"aabsa", re.IGNORECASE)
 pattern_abbsa = re.compile(r"abbsa", re.IGNORECASE)
 pattern_abssa = re.compile(r"abssa", re.IGNORECASE)
 pattern_absaa = re.compile(r"absaa", re.IGNORECASE)
+pattern_asba = re.compile(r"asba", re.IGNORECASE)
 
-def parse_file(file_path, filename):
+def parse_file(file_path):
     coza_only = []
     africa_only = []
     absa_only = []
@@ -36,6 +38,7 @@ def parse_file(file_path, filename):
             has_abbsa = bool(pattern_abbsa.search(domain))
             has_abssa = bool(pattern_abssa.search(domain))
             has_absaa = bool(pattern_absaa.search(domain))
+            has_asba = bool(pattern_asba.search(domain))
 
             if (has_coza or has_africa) and has_absa:
                 golden_matches.append(domain)
@@ -43,12 +46,14 @@ def parse_file(file_path, filename):
                 coza_only.append(domain)
             elif has_absa:
                 absa_only.append(domain)
-            elif has_aabsa or has_abbsa or has_abssa or has_absaa:
+            elif has_aabsa or has_abbsa or has_abssa or has_absaa or has_asba:
                 absa_typo_only.append(domain)
             elif has_africa:
                 africa_only.append(domain)
 
+    filename = os.path.basename(file_path)
     output_path = os.path.join(output_dir, filename)
+
     with open(output_path, "w", encoding="utf-8") as outfile:
         # Summary Header
         outfile.write(f"Summary for {filename}:\n")
@@ -64,7 +69,7 @@ def parse_file(file_path, filename):
         outfile.writelines(f"{d}\n" for d in golden_matches)
 
         outfile.write("\n=== .co.za Only Matches ===\n")
-        outfile.writelines(f"{d}\n" for d in coza_only)
+        #outfile.writelines(f"{d}\n" for d in coza_only)
 
         outfile.write("\n=== absa Only Matches ===\n")
         outfile.writelines(f"{d}\n" for d in absa_only)
@@ -72,24 +77,20 @@ def parse_file(file_path, filename):
         outfile.write("\n=== absa Typo Matches ===\n")
         outfile.writelines(f"{d}\n" for d in absa_typo_only)
 
-
-    print(f"[✓] {filename} → {output_path}")
+    print(f"[✓] Processed: {filename}")
     print(f"    - Golden Matches : {len(golden_matches)}")
     print(f"    - .co.za Only    : {len(coza_only)}")
     print(f"    - absa Only      : {len(absa_only)}")
     print(f"    - absa Typos     : {len(absa_typo_only)}")
     print(f"    - .africa Only   : {len(africa_only)}\n")
+    print(f"    → Output saved to: {output_path}")
 
 def main():
-    if not os.path.exists(input_dir):
-        print(f"[!] Input directory not found: {input_dir}")
+    if not os.path.exists(input_file):
+        print(f"[!] Input file not found: {input_file}")
         return
 
-    for filename in sorted(os.listdir(input_dir)):
-        file_path = os.path.join(input_dir, filename)
-        if not os.path.isfile(file_path):
-            continue
-        parse_file(file_path, filename)
+    parse_file(input_file)
 
 if __name__ == "__main__":
     main()
