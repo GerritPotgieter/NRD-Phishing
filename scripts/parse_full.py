@@ -3,7 +3,7 @@ import re
 
 # Define paths
 root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-input_file = os.path.join(root_dir, "nrd-30days-free.txt")  # Single file
+input_file = os.path.join(root_dir, "nrd-40days-free.txt")  # Single file
 output_dir = os.path.join(root_dir, "Output")
 os.makedirs(output_dir, exist_ok=True)
 

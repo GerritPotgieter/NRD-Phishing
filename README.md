@@ -17,3 +17,4 @@ If the script does not want to execute my fix was to use the dos2unix command as
 
 ```bash dos2unix nrd-list-downloader.sh ```
 Then the script can execute and download as needed. For fruther troubleshooting of the script please consult the Repo from PeterDave.
+
