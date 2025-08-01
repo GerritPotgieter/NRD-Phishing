@@ -17,3 +17,9 @@ absapremium.website
 google.com
 absa.africa
 absa.co.za
+www.absa.africa
+www.absa.co.za
+absaorg1.website
+absa.work
+.africa
+.co.za

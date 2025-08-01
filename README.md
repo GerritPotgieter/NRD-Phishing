@@ -18,3 +18,20 @@ If the script does not want to execute my fix was to use the dos2unix command as
 ```bash dos2unix nrd-list-downloader.sh ```
 Then the script can execute and download as needed. For fruther troubleshooting of the script please consult the Repo from PeterDave.
 
+## Running the Python files
+Access the repo and run the scripts from root using the following:
+
+``` python3 scripts/parser.py ```
+
+
+
+## Using the GO Scanner
+First make sure that GO is installed in your enviroment. My current version is 1.24.5.
+
+The GO script in this repo is directly taken from https://github.com/g0ldencybersec/gungnir
+
+Go into the root GO Scanner folder and run 
+
+``` go run . -r roots.txt ```
+
+Make sure the domains you want to scan are in the roots.txt folder
