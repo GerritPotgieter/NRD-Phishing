@@ -2,6 +2,9 @@ import os
 import shodan
 from dotenv import load_dotenv
 
+#SHODAN SCANNER SCRIPTS
+#USES SHODAN API TO SCAN HOST IP ADDRESSES
+
 load_dotenv()
 
 SHODAN_API_KEY = os.getenv("SHODAN_API_KEY")
