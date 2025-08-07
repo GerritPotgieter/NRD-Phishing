@@ -16,11 +16,10 @@ API_KEYS = {
 }
 
 # === ViewDNS Functions ===
-def viewdns_whois(domain):
+def viewdns_propCheck(domain):
     """Fetch WHOIS info from ViewDNS."""
     print(f"[ViewDNS] WHOIS lookup for: {domain}")
-    # Placeholder logic
-    api_url = f'https://api.viewdns.info/whois/v2/?domain={domain}&apikey={API_KEYS["viewdns"]}&output=json'
+    api_url = f'https://api.viewdns.info/propagation/?domain={domain}&apikey={API_KEYS["viewdns"]}&output=json'
     response = requests.get(api_url)
 
     if response.status_code == 200:
@@ -48,7 +47,7 @@ def viewdns_reverse_ip(domain):
 # === VirusTotal Functions ===
 def virustotal_report(domain):
     """Fetch report from VirusTotal."""
-    url = "https://www.virustotal.com/api/v3/domains/absa.work"
+    url = f"https://www.virustotal.com/api/v3/domains/{domain}"
 
     headers = {
         "accept": "application/json",
@@ -114,22 +113,38 @@ def securitytrails_whois_history(domain):
         print(f"Error: {response.status_code}, {response.text}")
     return {}
 
+def securitytrails_whois(domain):
+    """Fetch WHOIS information from SecurityTrails."""
+    url = f"https://api.securitytrails.com/v1/domain/{domain}/whois?apikey={API_KEYS['securitytrails']}"
+
+    headers = {"accept": "application/json"}
+
+    response = requests.get(url, headers=headers)
+    
+    if response.status_code == 200:
+        print(response.json())
+        return response.json()
+    else:
+        print(f"Error: {response.status_code}, {response.text}")
+    return {}
 # === Domain Enrichment ===
 def enrich_domain(domain):
     """Combine all data sources into a single profile."""
     result = {"domain": domain}
 
+    # SecurityTrails
+    result.update(securitytrails_whois(domain))
+    result.update(securitytrails_subdomains(domain))
+
     # ViewDNS
-    result.update(viewdns_whois(domain))
+    result.update(viewdns_propCheck(domain))
     result.update(viewdns_reverse_ip(domain))
 
     # VirusTotal
     result.update(virustotal_report(domain))
     result.update(virustotal_related_ips(domain))
 
-    # SecurityTrails
-    result.update(securitytrails_subdomains(domain))
-    result.update(securitytrails_whois_history(domain))
+
 
     # Save to file
     output_filename = f"{domain.replace('.', '_')}_profile.json"
@@ -142,7 +157,7 @@ def enrich_domain(domain):
 
 # === Main Flow ===
 def main():
-    test_domain = "absa.work"
+    test_domain = "absa-africa.net" # DOMAIN NAME HERE
     report = enrich_domain(test_domain)
     print("\n[✓] Enriched Domain Report:")
     print(json.dumps(report, indent=2, ensure_ascii=False))
