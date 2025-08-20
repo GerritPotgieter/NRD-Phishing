@@ -1,0 +1,1447 @@
+{
+  "domain": "absagroup.co",
+  "securitytrails": {
+    "alexa_rank": null,
+    "apex_domain": "absagroup.co",
+    "current_dns": {
+      "a": {
+        "first_seen": "2025-08-13",
+        "values": [
+          {
+            "h": null,
+            "ip": "44.195.74.125",
+            "ip_count": 0,
+            "ip_organization": "Amazon.com, Inc."
+          },
+          {
+            "h": null,
+            "ip": "54.152.45.207",
+            "ip_count": 0,
+            "ip_organization": "Amazon.com, Inc."
+          }
+        ]
+      },
+      "aaaa": {},
+      "mx": {},
+      "ns": {
+        "first_seen": "2025-05-02",
+        "values": [
+          {
+            "nameserver": "ns-982.awsdns-58.net",
+            "nameserver_count": 0,
+            "nameserver_organization": "Amazon.com, Inc."
+          },
+          {
+            "nameserver": "ns-1786.awsdns-31.co.uk",
+            "nameserver_count": 0,
+            "nameserver_organization": "Amazon.com, Inc."
+          },
+          {
+            "nameserver": "ns-136.awsdns-17.com",
+            "nameserver_count": 0,
+            "nameserver_organization": "Amazon.com, Inc."
+          },
+          {
+            "nameserver": "ns-1223.awsdns-24.org",
+            "nameserver_count": 0,
+            "nameserver_organization": "Amazon.com, Inc."
+          }
+        ]
+      },
+      "soa": {
+        "first_seen": "2025-05-02",
+        "values": [
+          {
+            "email": "awsdns-hostmaster.amazon.com",
+            "email_count": 0,
+            "ttl": 7200
+          }
+        ]
+      },
+      "txt": {}
+    },
+    "endpoint": "/v1/domain/absagroup.co/subdomains",
+    "hostname": "absagroup.co",
+    "subdomain_count": 0,
+    "meta": {
+      "limit_reached": false
+    },
+    "subdomains": []
+  },
+  "viewdns": {
+    "query": {
+      "tool": "propagation_PRO",
+      "domain": "absagroup.co"
+    },
+    "expectedresponse": "44.195.74.125 54.152.45.207",
+    "response": {
+      "server": [
+        {
+          "location": "Atlanta, USA",
+          "resultvalue": "44.218.187.249 52.44.91.18",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "Beauharnois, Canada",
+          "resultvalue": "44.218.187.249 52.44.91.18",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "Hong Kong, China",
+          "resultvalue": "44.218.187.249 52.44.91.18",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "Johannesburg, South Africa",
+          "resultvalue": "44.195.74.125 54.152.45.207",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "London, United Kingdom",
+          "resultvalue": "52.207.168.211 54.165.181.130",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "Los Angeles, USA",
+          "resultvalue": "52.207.168.211 54.165.181.130",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "Mumbai, India",
+          "resultvalue": "44.218.187.249 52.44.91.18",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "New York, USA",
+          "resultvalue": "52.207.168.211 54.165.181.130",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "Paris, France",
+          "resultvalue": "44.218.187.249 52.44.91.18",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "Perth, Australia",
+          "resultvalue": "44.195.74.125 54.152.45.207",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Rotterdam, Netherlands",
+          "resultvalue": "52.207.168.211 54.165.181.130",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "Santiago, Chile",
+          "resultvalue": "44.218.187.249 52.44.91.18",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "Seattle, USA",
+          "resultvalue": "44.218.187.249 52.44.91.18",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "Seoul, South Korea",
+          "resultvalue": "44.195.74.125 54.152.45.207",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Singapore, Singapore",
+          "resultvalue": "44.218.187.249 52.44.91.18",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "Sydney, Australia",
+          "resultvalue": "52.207.168.211 54.165.181.130",
+          "resultstatus": "fail"
+        },
+        {
+          "location": "São Paulo, Brazil",
+          "resultvalue": "44.195.74.125 54.152.45.207",
+          "resultstatus": "ok"
+        }
+      ]
+    }
+  },
+  "virustotal": {
+    "data": {
+      "id": "absagroup.co",
+      "type": "domain",
+      "links": {
+        "self": "https://www.virustotal.com/api/v3/domains/absagroup.co"
+      },
+      "attributes": {
+        "last_analysis_date": 1750234119,
+        "jarm": "29d29d00029d29d00041d41d00041db78309d03c04b7072bacbf1ce396279b",
+        "tags": [],
+        "whois": "Administrative city: REDACTED FOR PRIVACY\nAdministrative country: REDACTED FOR PRIVACY\nAdministrative state: REDACTED FOR PRIVACY\nCreate date: 2025-05-02 00:00:00\nDomain name: absagroup.co\nDomain registrar id: 468\nExpiry date: 2026-05-02 00:00:00\nQuery time: 2025-05-03 21:12:59\nRegistrant city: 1f8f4166599d23ee\nRegistrant company: 038a292988566233\nRegistrant country: United Kingdom\nRegistrant email: 29e2c061f3c9524es@\nRegistrant fax: 31d1617d95c9a75c\nRegistrant name: 1f8f4166599d23ee\nRegistrant phone: 31d1617d95c9a75c\nRegistrant state: 0449eb7840e3a030\nRegistrant zip: 1f8f4166599d23ee\nTechnical city: REDACTED FOR PRIVACY\nTechnical country: REDACTED FOR PRIVACY\nTechnical state: REDACTED FOR PRIVACY\nUpdate date: 2025-05-02 00:00:00",
+        "popularity_ranks": {},
+        "reputation": 0,
+        "whois_date": 1777680000,
+        "last_https_certificate": {
+          "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "8db057d2dd95033c6a795a76f8b0cfe2817158698997d066c595c2534f6db46d308e75676241356a4134dac27bce0d570ef7991a1decb0d0cdb951c0cb5456b551f2539aafb4ac568515421f3396178f80ae1d30ff683a717a3df64143d235e79068b8a3d5fd8055bc758a93dc0fc8187282daf9ac5ddcc1d5b30b9bf2469d103646d8645ed053489c46307fcb6c7d4c10492e4309d53d700af74199327a1941a28f23712a851653b26b6792d11a4c2d4e8e3a5fa38280c2ac09503d3dcd6874e24fcebb8b9a5d4de1708d091d316acd2b35b9c964539fd69ea236e70907775a3487364c91cdc07847189e07150d367229baacded0a02dfd1309c8e2781a1c2d"
+          },
+          "extensions": {
+            "authority_key_identifier": {
+              "keyid": "c03152cd5a50c3827c7471cecbe99cf97aeb82e2"
+            },
+            "subject_key_identifier": "8f42a2c5a566da742e86ae35c979f0197289c472",
+            "subject_alternative_name": [
+              "absagroup.co"
+            ],
+            "certificate_policies": [
+              "2.23.140.1.2.1"
+            ],
+            "key_usage": [
+              "digitalSignature",
+              "keyEncipherment"
+            ],
+            "extended_key_usage": [
+              "serverAuth",
+              "clientAuth"
+            ],
+            "crl_distribution_points": [
+              "http://crl.r2m02.amazontrust.com/r2m02.crl"
+            ],
+            "ca_information_access": {
+              "OCSP": "http://ocsp.r2m02.amazontrust.com",
+              "CA Issuers": "http://crt.r2m02.amazontrust.com/r2m02.cer"
+            },
+            "CA": false,
+            "1.3.6.1.4.1.11129.2.4.2": "048201680166007500969764bf555897adf743876837084277e9f03ad5f6a4f3"
+          },
+          "validity": {
+            "not_after": "2026-05-31 23:59:59",
+            "not_before": "2025-05-02 00:00:00"
+          },
+          "size": 1478,
+          "version": "V3",
+          "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+              "modulus": "b63648ec39b7cd94c21b3f73c75f679523b7c4378ffe429c53e4ae3bb99ec98c4e2f29f884b3812f4d8806357dc8c16bf7531e6293a5c33edc0652bfe6cda701bb0c370bb5d0381efdfeef0c52ae1d5b1ed58b6a720b12131725c41b4261acd434638932df1b257b3167363e491020779505e664c2699be24ab86b05eac3faa171474d544c9bb8c3f22251821da69aa7fe1f53617258b884dc0e8545aa833ca29e5d092e6f4d4b76e7db6eefd8874f206c1b7117b4e8a4a4484d829a97cac8469c784ae3abc2c1d35f3460f2cf5e9dc84afe49f934e530e9cca12b1956e0b25acfdee1b64375ce82e0e6d5d28092166388e918cbc6d4fc49f742ab879ddd1db9",
+              "exponent": "10001",
+              "key_size": 2048
+            }
+          },
+          "thumbprint_sha256": "78e147f7a6ba192c54ef1902331d2c1bb5a8a1397bc7e8eb02a53e0ebafcdb4b",
+          "thumbprint": "d9fe638789e735308404fcd54a2b1dc3a1bc612b",
+          "serial_number": "29c25bdb8aea28c67a86ff611c3c59e",
+          "issuer": {
+            "C": "US",
+            "O": "Amazon",
+            "CN": "Amazon RSA 2048 M02"
+          },
+          "subject": {
+            "CN": "absagroup.co"
+          }
+        },
+        "rdap": {
+          "ldh_name": "absagroup.co",
+          "events": [
+            {
+              "event_action": "last update of RDAP database",
+              "event_date": "2025-06-18T04:30:47Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "expiration",
+              "event_date": "2026-05-02T13:28:24Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "registration",
+              "event_date": "2025-05-02T13:28:24Z",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "last changed",
+              "event_date": "2025-05-02T13:38:40Z",
+              "event_actor": "",
+              "links": []
+            }
+          ],
+          "links": [
+            {
+              "href": "https://rdap.registrar.amazon.com/rdap/domain/absagroup.co",
+              "rel": "self",
+              "type": "application/rdap+json",
+              "value": "https://rdap.registrar.amazon.com/rdap/domain/absagroup.co",
+              "title": "",
+              "media": "",
+              "href_lang": []
+            }
+          ],
+          "notices": [
+            {
+              "title": "Status Codes",
+              "description": [
+                "For more information on domain status codes, please visit https://icann.org/epp"
+              ],
+              "links": [
+                {
+                  "href": "https://icann.org/epp",
+                  "rel": "glossary",
+                  "type": "text/html",
+                  "title": "",
+                  "value": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "RDDS Inaccuracy Complaint Form",
+              "description": [
+                "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+              ],
+              "links": [
+                {
+                  "href": "https://icann.org/wicf",
+                  "rel": "help",
+                  "type": "text/html",
+                  "title": "",
+                  "value": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "Amazon Registrar Terms Of Use",
+              "description": [
+                "By submitting a query to the Amazon Registrar, Inc. RDAP service, you agree to abide by the following terms. The data in Amazon Registrar, Inc.'s WHOIS database is provided by Amazon Registrar, Inc. for the sole purpose of assisting you in obtaining information about domain name accuracy. You agree to use this data only for lawful purposes and further agree not to use this data for any unlawful purpose or to: (1) enable, allow, or otherwise support the transmission by email, telephone, or facsimile of commercial advertising or unsolicited bulk email, or (2) enable high volume, automated, electronic processes to collect or compile this data for any purpose, including mining this data for your own personal or commercial purposes. Amazon Registrar, Inc. reserves the right to restrict or terminate your access to the data if you fail to abide by these terms of use. Amazon Registrar, Inc. reserves the right to modify these terms at any time.",
+                "Visit Amazon Registrar, Inc. at https://registrar.amazon.com",
+                "Contact information available here: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-contact-support.html",
+                "Â© 2020, Amazon.com, Inc., or its affiliates"
+              ],
+              "links": [
+                {
+                  "href": "https://registrar.amazon.com",
+                  "rel": "terms-of-service",
+                  "type": "text/html",
+                  "title": "",
+                  "value": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            }
+          ],
+          "nameservers": [
+            {
+              "ldh_name": "ns-136.awsdns-17.com",
+              "events": [
+                {
+                  "event_action": "last changed",
+                  "event_date": "2025-05-02T13:38:40Z",
+                  "event_actor": "",
+                  "links": []
+                }
+              ],
+              "object_class_name": "nameserver",
+              "status": [
+                "active"
+              ],
+              "handle": "",
+              "unicode_name": "",
+              "links": [],
+              "notices": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "ns-982.awsdns-58.net",
+              "events": [
+                {
+                  "event_action": "last changed",
+                  "event_date": "2025-05-02T13:38:40Z",
+                  "event_actor": "",
+                  "links": []
+                }
+              ],
+              "object_class_name": "nameserver",
+              "status": [
+                "active"
+              ],
+              "handle": "",
+              "unicode_name": "",
+              "links": [],
+              "notices": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "ns-1223.awsdns-24.org",
+              "events": [
+                {
+                  "event_action": "last changed",
+                  "event_date": "2025-05-02T13:38:40Z",
+                  "event_actor": "",
+                  "links": []
+                }
+              ],
+              "object_class_name": "nameserver",
+              "status": [
+                "active"
+              ],
+              "handle": "",
+              "unicode_name": "",
+              "links": [],
+              "notices": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "ns-1786.awsdns-31.co.uk",
+              "events": [
+                {
+                  "event_action": "last changed",
+                  "event_date": "2025-05-02T13:38:40Z",
+                  "event_actor": "",
+                  "links": []
+                }
+              ],
+              "object_class_name": "nameserver",
+              "status": [
+                "active"
+              ],
+              "handle": "",
+              "unicode_name": "",
+              "links": [],
+              "notices": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            }
+          ],
+          "rdap_conformance": [
+            "rdap_level_0",
+            "redacted",
+            "icann_rdap_response_profile_1",
+            "icann_rdap_technical_implementation_guide_1"
+          ],
+          "entities": [
+            {
+              "object_class_name": "entity",
+              "handle": "absagroupco-reg",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "kind",
+                  "type": "text",
+                  "values": [
+                    "individual"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "On behalf of absagroup.co owner"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "org",
+                  "parameters": {
+                    "type": [
+                      "work"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "Identity Protection Service"
+                  ]
+                },
+                {
+                  "name": "adr",
+                  "parameters": {
+                    "cc": [
+                      "GB"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "",
+                    "",
+                    "PO Box 786",
+                    "Hayes",
+                    "Middlesex",
+                    "UB3 9TR",
+                    ""
+                  ]
+                },
+                {
+                  "name": "tel",
+                  "parameters": {
+                    "type": [
+                      "voice"
+                    ]
+                  },
+                  "type": "uri",
+                  "values": [
+                    "tel:+44.1483307527"
+                  ]
+                },
+                {
+                  "name": "contact-uri",
+                  "type": "uri",
+                  "values": [
+                    "mailto:d8e285a4-295d-4f0e-afcb-36a677cf7101@identity-protect.org"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "registrant"
+              ],
+              "events": [
+                {
+                  "event_action": "last changed",
+                  "event_date": "2025-05-02T13:38:40Z",
+                  "event_actor": "",
+                  "links": []
+                }
+              ],
+              "public_ids": [],
+              "entities": [],
+              "remarks": [],
+              "links": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            },
+            {
+              "object_class_name": "entity",
+              "handle": "absagroupco-tech",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "kind",
+                  "type": "text",
+                  "values": [
+                    "individual"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "On behalf of absagroup.co owner"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "org",
+                  "parameters": {
+                    "type": [
+                      "work"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "Identity Protection Service"
+                  ]
+                },
+                {
+                  "name": "adr",
+                  "parameters": {
+                    "cc": [
+                      "GB"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "",
+                    "",
+                    "PO Box 786",
+                    "Hayes",
+                    "Middlesex",
+                    "UB3 9TR",
+                    ""
+                  ]
+                },
+                {
+                  "name": "tel",
+                  "parameters": {
+                    "type": [
+                      "voice"
+                    ]
+                  },
+                  "type": "uri",
+                  "values": [
+                    "tel:+44.1483307527"
+                  ]
+                },
+                {
+                  "name": "contact-uri",
+                  "type": "uri",
+                  "values": [
+                    "mailto:d8e285a4-295d-4f0e-afcb-36a677cf7101@identity-protect.org"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "technical"
+              ],
+              "events": [
+                {
+                  "event_action": "last changed",
+                  "event_date": "2025-05-02T13:38:40Z",
+                  "event_actor": "",
+                  "links": []
+                }
+              ],
+              "public_ids": [],
+              "entities": [],
+              "remarks": [],
+              "links": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            },
+            {
+              "object_class_name": "entity",
+              "handle": "468",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "Amazon Registrar, Inc."
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "adr",
+                  "parameters": {
+                    "cc": [
+                      "US"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "",
+                    "",
+                    "410 Terry Avenue North",
+                    "Seattle",
+                    "WA",
+                    "98109-5210",
+                    ""
+                  ]
+                },
+                {
+                  "name": "email",
+                  "parameters": {
+                    "type": [
+                      "work"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "registrar@amazon.com"
+                  ]
+                }
+              ],
+              "roles": [
+                "registrar"
+              ],
+              "public_ids": [
+                {
+                  "type": "IANA Registrar ID",
+                  "identifier": "468"
+                }
+              ],
+              "entities": [
+                {
+                  "object_class_name": "entity",
+                  "vcard_array": [
+                    {
+                      "name": "version",
+                      "type": "text",
+                      "values": [
+                        "4.0"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "fn",
+                      "type": "text",
+                      "values": [
+                        ""
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "tel",
+                      "parameters": {
+                        "type": [
+                          "voice"
+                        ]
+                      },
+                      "type": "uri",
+                      "values": [
+                        "tel:+1.2024422253"
+                      ]
+                    },
+                    {
+                      "name": "email",
+                      "parameters": {
+                        "type": [
+                          "work"
+                        ]
+                      },
+                      "type": "text",
+                      "values": [
+                        "trustandsafety@support.aws.com"
+                      ]
+                    }
+                  ],
+                  "roles": [
+                    "abuse"
+                  ],
+                  "handle": "",
+                  "public_ids": [],
+                  "entities": [],
+                  "remarks": [],
+                  "links": [],
+                  "events": [],
+                  "as_event_actor": [],
+                  "status": [],
+                  "port43": "",
+                  "networks": [],
+                  "autnums": [],
+                  "url": "",
+                  "lang": "",
+                  "rdap_conformance": []
+                }
+              ],
+              "links": [
+                {
+                  "href": "https://rdap.registrar.amazon.com/rdap",
+                  "rel": "about",
+                  "type": "application/rdap+json",
+                  "value": "https://rdap.registrar.amazon.com/rdap",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "port43": "whois.registrar.amazon",
+              "remarks": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            }
+          ],
+          "object_class_name": "domain",
+          "status": [
+            "active"
+          ],
+          "secure_dns": {
+            "delegation_signed": false,
+            "zone_signed": false,
+            "max_sig_life": 0,
+            "ds_data": [],
+            "key_data": []
+          },
+          "port43": "whois.registrar.amazon",
+          "handle": "",
+          "unicode_name": "",
+          "punycode": "",
+          "type": "",
+          "switch_name": "",
+          "public_ids": [],
+          "lang": "",
+          "remarks": [],
+          "nask0_state": "",
+          "variants": []
+        },
+        "last_analysis_stats": {
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 32,
+          "harmless": 62,
+          "timeout": 0
+        },
+        "tld": "co",
+        "last_modification_date": 1752653492,
+        "last_dns_records_date": 1750234138,
+        "categories": {},
+        "total_votes": {
+          "harmless": 0,
+          "malicious": 0
+        },
+        "creation_date": 1746144000,
+        "last_analysis_results": {
+          "Acronis": {
+            "method": "blacklist",
+            "engine_name": "Acronis",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "0xSI_f33d": {
+            "method": "blacklist",
+            "engine_name": "0xSI_f33d",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Abusix": {
+            "method": "blacklist",
+            "engine_name": "Abusix",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ADMINUSLabs": {
+            "method": "blacklist",
+            "engine_name": "ADMINUSLabs",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Axur": {
+            "method": "blacklist",
+            "engine_name": "Axur",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Criminal IP": {
+            "method": "blacklist",
+            "engine_name": "Criminal IP",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "AILabs (MONITORAPP)": {
+            "method": "blacklist",
+            "engine_name": "AILabs (MONITORAPP)",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "AlienVault": {
+            "method": "blacklist",
+            "engine_name": "AlienVault",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "alphaMountain.ai": {
+            "method": "blacklist",
+            "engine_name": "alphaMountain.ai",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AlphaSOC": {
+            "method": "blacklist",
+            "engine_name": "AlphaSOC",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Antiy-AVL": {
+            "method": "blacklist",
+            "engine_name": "Antiy-AVL",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ArcSight Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "ArcSight Threat Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AutoShun": {
+            "method": "blacklist",
+            "engine_name": "AutoShun",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "benkow.cc": {
+            "method": "blacklist",
+            "engine_name": "benkow.cc",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Bfore.Ai PreCrime": {
+            "method": "blacklist",
+            "engine_name": "Bfore.Ai PreCrime",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "BitDefender": {
+            "method": "blacklist",
+            "engine_name": "BitDefender",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Bkav": {
+            "method": "blacklist",
+            "engine_name": "Bkav",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Blueliv": {
+            "method": "blacklist",
+            "engine_name": "Blueliv",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Certego": {
+            "method": "blacklist",
+            "engine_name": "Certego",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Chong Lua Dao": {
+            "method": "blacklist",
+            "engine_name": "Chong Lua Dao",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CINS Army": {
+            "method": "blacklist",
+            "engine_name": "CINS Army",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Cluster25": {
+            "method": "blacklist",
+            "engine_name": "Cluster25",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CRDF": {
+            "method": "blacklist",
+            "engine_name": "CRDF",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CSIS Security Group": {
+            "method": "blacklist",
+            "engine_name": "CSIS Security Group",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Snort IP sample list": {
+            "method": "blacklist",
+            "engine_name": "Snort IP sample list",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CMC Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "CMC Threat Intelligence",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Cyan": {
+            "method": "blacklist",
+            "engine_name": "Cyan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Cyble": {
+            "method": "blacklist",
+            "engine_name": "Cyble",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CyRadar": {
+            "method": "blacklist",
+            "engine_name": "CyRadar",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "DNS8": {
+            "method": "blacklist",
+            "engine_name": "DNS8",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Dr.Web": {
+            "method": "blacklist",
+            "engine_name": "Dr.Web",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Ermes": {
+            "method": "blacklist",
+            "engine_name": "Ermes",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ESET": {
+            "method": "blacklist",
+            "engine_name": "ESET",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ESTsecurity": {
+            "method": "blacklist",
+            "engine_name": "ESTsecurity",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "EmergingThreats": {
+            "method": "blacklist",
+            "engine_name": "EmergingThreats",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Emsisoft": {
+            "method": "blacklist",
+            "engine_name": "Emsisoft",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Forcepoint ThreatSeeker": {
+            "method": "blacklist",
+            "engine_name": "Forcepoint ThreatSeeker",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Fortinet": {
+            "method": "blacklist",
+            "engine_name": "Fortinet",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "G-Data": {
+            "method": "blacklist",
+            "engine_name": "G-Data",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "GCP Abuse Intelligence": {
+            "method": "blacklist",
+            "engine_name": "GCP Abuse Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Google Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Google Safebrowsing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "GreenSnow": {
+            "method": "blacklist",
+            "engine_name": "GreenSnow",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Gridinsoft": {
+            "method": "blacklist",
+            "engine_name": "Gridinsoft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Heimdal Security": {
+            "method": "blacklist",
+            "engine_name": "Heimdal Security",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Hunt.io Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Hunt.io Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "IPsum": {
+            "method": "blacklist",
+            "engine_name": "IPsum",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Juniper Networks": {
+            "method": "blacklist",
+            "engine_name": "Juniper Networks",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Kaspersky": {
+            "method": "blacklist",
+            "engine_name": "Kaspersky",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Lionic": {
+            "method": "blacklist",
+            "engine_name": "Lionic",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Lumu": {
+            "method": "blacklist",
+            "engine_name": "Lumu",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "MalwarePatrol": {
+            "method": "blacklist",
+            "engine_name": "MalwarePatrol",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "MalwareURL": {
+            "method": "blacklist",
+            "engine_name": "MalwareURL",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Malwared": {
+            "method": "blacklist",
+            "engine_name": "Malwared",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Mimecast": {
+            "method": "blacklist",
+            "engine_name": "Mimecast",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Netcraft": {
+            "method": "blacklist",
+            "engine_name": "Netcraft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "OpenPhish": {
+            "method": "blacklist",
+            "engine_name": "OpenPhish",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Phishing Database": {
+            "method": "blacklist",
+            "engine_name": "Phishing Database",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PhishFort": {
+            "method": "blacklist",
+            "engine_name": "PhishFort",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PhishLabs": {
+            "method": "blacklist",
+            "engine_name": "PhishLabs",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Phishtank": {
+            "method": "blacklist",
+            "engine_name": "Phishtank",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PREBYTES": {
+            "method": "blacklist",
+            "engine_name": "PREBYTES",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PrecisionSec": {
+            "method": "blacklist",
+            "engine_name": "PrecisionSec",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Quick Heal": {
+            "method": "blacklist",
+            "engine_name": "Quick Heal",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Quttera": {
+            "method": "blacklist",
+            "engine_name": "Quttera",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SafeToOpen": {
+            "method": "blacklist",
+            "engine_name": "SafeToOpen",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sansec eComscan": {
+            "method": "blacklist",
+            "engine_name": "Sansec eComscan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Scantitan": {
+            "method": "blacklist",
+            "engine_name": "Scantitan",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SCUMWARE.org": {
+            "method": "blacklist",
+            "engine_name": "SCUMWARE.org",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Seclookup": {
+            "method": "blacklist",
+            "engine_name": "Seclookup",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SecureBrain": {
+            "method": "blacklist",
+            "engine_name": "SecureBrain",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "SOCRadar": {
+            "method": "blacklist",
+            "engine_name": "SOCRadar",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sophos": {
+            "method": "blacklist",
+            "engine_name": "Sophos",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Spam404": {
+            "method": "blacklist",
+            "engine_name": "Spam404",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "StopForumSpam": {
+            "method": "blacklist",
+            "engine_name": "StopForumSpam",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Sucuri SiteCheck": {
+            "method": "blacklist",
+            "engine_name": "Sucuri SiteCheck",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ThreatHive": {
+            "method": "blacklist",
+            "engine_name": "ThreatHive",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Threatsourcing": {
+            "method": "blacklist",
+            "engine_name": "Threatsourcing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Trustwave": {
+            "method": "blacklist",
+            "engine_name": "Trustwave",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Underworld": {
+            "method": "blacklist",
+            "engine_name": "Underworld",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "URLhaus": {
+            "method": "blacklist",
+            "engine_name": "URLhaus",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "URLQuery": {
+            "method": "blacklist",
+            "engine_name": "URLQuery",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Viettel Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Viettel Threat Intelligence",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "VIPRE": {
+            "method": "blacklist",
+            "engine_name": "VIPRE",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "VX Vault": {
+            "method": "blacklist",
+            "engine_name": "VX Vault",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ViriBack": {
+            "method": "blacklist",
+            "engine_name": "ViriBack",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Webroot": {
+            "method": "blacklist",
+            "engine_name": "Webroot",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Yandex Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Yandex Safebrowsing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ZeroCERT": {
+            "method": "blacklist",
+            "engine_name": "ZeroCERT",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "desenmascara.me": {
+            "method": "blacklist",
+            "engine_name": "desenmascara.me",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "malwares.com URL checker": {
+            "method": "blacklist",
+            "engine_name": "malwares.com URL checker",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "securolytics": {
+            "method": "blacklist",
+            "engine_name": "securolytics",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Xcitium Verdict Cloud": {
+            "method": "blacklist",
+            "engine_name": "Xcitium Verdict Cloud",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "zvelo": {
+            "method": "blacklist",
+            "engine_name": "zvelo",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ZeroFox": {
+            "method": "blacklist",
+            "engine_name": "ZeroFox",
+            "category": "harmless",
+            "result": "clean"
+          }
+        },
+        "last_https_certificate_date": 1750234138,
+        "last_update_date": 1746144000,
+        "last_dns_records": [
+          {
+            "type": "SOA",
+            "ttl": 900,
+            "value": "ns-136.awsdns-17.com",
+            "rname": "awsdns-hostmaster.amazon.com",
+            "serial": 1,
+            "refresh": 7200,
+            "retry": 900,
+            "expire": 1209600,
+            "minimum": 86400
+          },
+          {
+            "type": "A",
+            "ttl": 60,
+            "value": "44.198.154.248"
+          },
+          {
+            "type": "NS",
+            "ttl": 21600,
+            "value": "ns-1223.awsdns-24.org"
+          },
+          {
+            "type": "NS",
+            "ttl": 21600,
+            "value": "ns-136.awsdns-17.com"
+          },
+          {
+            "type": "NS",
+            "ttl": 21600,
+            "value": "ns-982.awsdns-58.net"
+          },
+          {
+            "type": "NS",
+            "ttl": 21600,
+            "value": "ns-1786.awsdns-31.co.uk"
+          },
+          {
+            "type": "A",
+            "ttl": 60,
+            "value": "34.236.130.255"
+          }
+        ]
+      }
+    }
+  }
+}
