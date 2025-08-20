@@ -43,6 +43,18 @@ def viewdns_reverse_ip(domain):
         print(f"Error: {response.status_code}, {response.text}")
     return {}
 
+def viewdns_whois(domain):
+    """Fetch reverse IP info from ViewDNS."""
+    api_url = f'https://api.viewdns.info/whois/v2/?domain={domain}&apikey={API_KEYS["viewdns"]}&output=json'
+
+    response = requests.get(api_url)
+
+    if response.status_code == 200:
+        print(response.json())
+        return response.json()
+    else:
+        print(f"Error: {response.status_code}, {response.text}")
+    return {}
 
 # === VirusTotal Functions ===
 def virustotal_report(domain):
@@ -127,22 +139,45 @@ def securitytrails_whois(domain):
     else:
         print(f"Error: {response.status_code}, {response.text}")
     return {}
+
+
+def securitytrails_domain(domain):
+    """Fetch WHOIS information from SecurityTrails."""
+    url = f"https://api.securitytrails.com/v1/domain/{domain}?apikey={API_KEYS['securitytrails']}"
+
+    headers = {"accept": "application/json"}
+
+    response = requests.get(url, headers=headers)
+    
+    if response.status_code == 200:
+        print(response.json())
+        return response.json()
+    else:
+        print(f"Error: {response.status_code}, {response.text}")
+    return {}
 # === Domain Enrichment ===
 def enrich_domain(domain):
     """Combine all data sources into a single profile."""
     result = {"domain": domain}
 
+    # Create a JSON section for SecurityTrails
+    result["securitytrails"] = {}
     # SecurityTrails
-    result.update(securitytrails_whois(domain))
-    result.update(securitytrails_subdomains(domain))
+    result["securitytrails"].update(securitytrails_domain(domain))
+    result["securitytrails"].update(securitytrails_subdomains(domain))
 
+
+    #Create View DNS section
+    result["viewdns"] = {}
     # ViewDNS
-    result.update(viewdns_propCheck(domain))
-    result.update(viewdns_reverse_ip(domain))
+    result["viewdns"].update(viewdns_propCheck(domain))
+    result["viewdns"].update(viewdns_whois(domain))
 
+    # Create a JSON section for VirusTotal
+    result["virustotal"] = {}
     # VirusTotal
-    result.update(virustotal_report(domain))
-    result.update(virustotal_related_ips(domain))
+    result["virustotal"].update(virustotal_report(domain))
+    result["virustotal"].update(virustotal_related_ips(domain))
 
 
 
@@ -163,4 +198,4 @@ def main():
     print(json.dumps(report, indent=2, ensure_ascii=False))
 
 if __name__ == "__main__":
-    main()
+    main("gerrit.co.za")

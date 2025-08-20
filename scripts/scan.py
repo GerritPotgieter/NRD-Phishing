@@ -1,37 +1,78 @@
+import requests
+import hashlib
+import csv
+import time
+from datetime import datetime
 import os
-import shodan
-from dotenv import load_dotenv
 
-#SHODAN SCANNER SCRIPTS
-#USES SHODAN API TO SCAN HOST IP ADDRESSES
+# Default paths
+INPUT_FILE = "Output/Full_Cleaned_Report/total_filtered_domains.txt"
+OUTPUT_CSV = "Output/Domain_Activity_Log.csv"
 
-load_dotenv()
+# Function to fetch domain content and compute hash
+def fetch_domain_hash(domain, timeout=5):
+    for url in [f"https://{domain}", f"http://{domain}"]:
+        try:
+            r = requests.get(url, timeout=timeout)
+            if r.status_code == 200 and r.text.strip():
+                return True, hashlib.md5(r.text.encode("utf-8")).hexdigest()
+        except requests.RequestException:
+            continue
+    return False, None
 
-SHODAN_API_KEY = os.getenv("SHODAN_API_KEY")
-IP_ADDRESS = "13.247.33.149"
+def main(input_file: str = INPUT_FILE, output_csv: str = OUTPUT_CSV, timeout: int = 5, delay: float = 0.5) -> None:
+    """Run the domain activity scan end-to-end.
 
-if SHODAN_API_KEY is None:
-    raise ValueError("SHODAN_API_KEY not set in environment variables.")
+    Args:
+        input_file: Path to file with one domain per line.
+        output_csv: Path to write/update the activity log CSV.
+        timeout: Per-request timeout in seconds.
+        delay: Sleep between domain checks to avoid hammering servers.
+    """
+    # Ensure output directory exists
+    os.makedirs(os.path.dirname(output_csv), exist_ok=True)
 
-api = shodan.Shodan(SHODAN_API_KEY)
+    # Load domains
+    if not os.path.exists(input_file):
+        print(f"Input file not found: {input_file}")
+        return
 
-try:
-    host = api.host(IP_ADDRESS)
+    with open(input_file, "r", encoding="utf-8") as f:
+        domains = [line.strip() for line in f if line.strip()]
 
-    print(f"[+] Host: {host['ip_str']}")
-    print(f"[+] Organization: {host.get('org', 'n/a')}")
-    print(f"[+] ISP: {host.get('isp', 'n/a')}")
-    print(f"[+] OS: {host.get('os', 'n/a')}")
-    print(f"[+] Last Update: {host.get('last_update', 'n/a')}")
-    print(f"[+] Hostnames: {host.get('hostnames', [])}")
-    print(f"[+] Open Ports: {host.get('ports', [])}")
-    print("\n[+] Services:")
-    for item in host['data']:
-        print(f" - Port: {item['port']}")
-        print(f"   Product: {item.get('product', 'n/a')}")
-        print(f"   Banner: {item['data'][:100]}...\n")  # Only show first 100 chars
+    # Load existing CSV data if exists (to detect content changes)
+    domain_data = {}
+    if os.path.exists(output_csv):
+        with open(output_csv, "r", encoding="utf-8") as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                domain_data[row["domain"]] = row
 
-except shodan.APIError as e:
-    print(f"[!] Shodan API error: {e}")
-except Exception as e:
-    print(f"[!] General error: {e}")
+    # Prepare CSV header
+    fieldnames = ["domain", "last_checked", "is_active", "content_hash", "content_changed"]
+
+    # Open CSV for writing (overwrite each run)
+    with open(output_csv, "w", newline="", encoding="utf-8") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+
+        for domain in domains:
+            is_active, content_hash = fetch_domain_hash(domain, timeout=timeout)
+            prev_hash = domain_data.get(domain, {}).get("content_hash")
+            changed = bool(content_hash and prev_hash != content_hash)
+
+            writer.writerow({
+                "domain": domain,
+                "last_checked": datetime.utcnow().isoformat(),
+                "is_active": is_active,
+                "content_hash": content_hash or "",
+                "content_changed": changed,
+            })
+
+            status = "[ACTIVE]" if is_active else "[INACTIVE]"
+            print(f"{status} {domain} | Hash changed: {changed}")
+            time.sleep(delay)  # avoid overloading servers
+
+
+if __name__ == "__main__":
+    main()

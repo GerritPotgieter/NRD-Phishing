@@ -3,7 +3,7 @@ import re
 
 # === Path Setup ===
 root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-input_dir = os.path.join(root_dir, "daily", "free")
+input_dir = os.path.join(root_dir,"scripts" ,"daily", "free")
 output_dir = os.path.join(root_dir, "Output", "ByDate")
 os.makedirs(output_dir, exist_ok=True)
 
