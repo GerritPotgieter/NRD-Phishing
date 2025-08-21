@@ -191,11 +191,10 @@ def enrich_domain(domain):
     return result
 
 # === Main Flow ===
-def main():
-    test_domain = "absa-africa.net" # DOMAIN NAME HERE
-    report = enrich_domain(test_domain)
+def main(domain):
+    report = enrich_domain(domain)
     print("\n[✓] Enriched Domain Report:")
     print(json.dumps(report, indent=2, ensure_ascii=False))
 
 if __name__ == "__main__":
-    main("gerrit.co.za")
+    main("loans.co")
