@@ -209,6 +209,7 @@ __marimo__/
 scripts/daily/free
 /Output/ByDate_Clean
 /Output/ByDate
+/Output/Gungnir_Reports/all.jsonl
 Output/Full/nrd-150days-free.txt
 Output/Full/nrd-100days-free.txt
 Output/Full/nrd-100days-free.txt
