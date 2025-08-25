@@ -1,0 +1,1444 @@
+{
+  "domain": "absa-africa.net",
+  "securitytrails": {
+    "alexa_rank": null,
+    "apex_domain": "absa-africa.net",
+    "current_dns": {
+      "a": {
+        "first_seen": "2025-06-16",
+        "values": [
+          {
+            "h": null,
+            "ip": "192.64.119.90",
+            "ip_count": 0,
+            "ip_organization": "Namecheap, Inc."
+          }
+        ]
+      },
+      "aaaa": {},
+      "mx": {
+        "first_seen": "2025-06-16",
+        "values": [
+          {
+            "hostname": "mx2.privateemail.com",
+            "hostname_count": 0,
+            "hostname_organization": "Namecheap, Inc.",
+            "priority": 10
+          },
+          {
+            "hostname": "mx1.privateemail.com",
+            "hostname_count": 0,
+            "hostname_organization": "Namecheap, Inc.",
+            "priority": 10
+          }
+        ]
+      },
+      "ns": {
+        "first_seen": "2025-06-16",
+        "values": [
+          {
+            "nameserver": "dns2.registrar-servers.com",
+            "nameserver_count": 0,
+            "nameserver_organization": "NeuStar, Inc."
+          },
+          {
+            "nameserver": "dns1.registrar-servers.com",
+            "nameserver_count": 0,
+            "nameserver_organization": "Neustar Security Services"
+          }
+        ]
+      },
+      "soa": {
+        "first_seen": "2025-06-16",
+        "values": [
+          {
+            "email": "hostmaster.registrar-servers.com",
+            "email_count": 0,
+            "ttl": 43200
+          }
+        ]
+      },
+      "txt": {
+        "first_seen": "2025-06-16",
+        "values": [
+          {
+            "value": "v=spf1 include:spf.privateemail.com ~all"
+          }
+        ]
+      }
+    },
+    "endpoint": "/v1/domain/absa-africa.net/subdomains",
+    "hostname": "absa-africa.net",
+    "subdomain_count": 4,
+    "meta": {
+      "limit_reached": false
+    },
+    "subdomains": [
+      "autoconfig",
+      "mail",
+      "autodiscover",
+      "www"
+    ]
+  },
+  "viewdns": {
+    "query": {
+      "tool": "propagation_PRO",
+      "domain": "absa-africa.net"
+    },
+    "expectedresponse": "192.64.119.90",
+    "response": {
+      "server": [
+        {
+          "location": "Atlanta, USA",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Beauharnois, Canada",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Hong Kong, China",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Johannesburg, South Africa",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "London, United Kingdom",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Los Angeles, USA",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Mumbai, India",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "New York, USA",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Paris, France",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Perth, Australia",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Rotterdam, Netherlands",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Santiago, Chile",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seattle, USA",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seoul, South Korea",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Singapore, Singapore",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Sydney, Australia",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "São Paulo, Brazil",
+          "resultvalue": "192.64.119.90",
+          "resultstatus": "ok"
+        }
+      ]
+    }
+  },
+  "virustotal": {
+    "data": {
+      "id": "absa-africa.net",
+      "type": "domain",
+      "links": {
+        "self": "https://www.virustotal.com/api/v3/domains/absa-africa.net"
+      },
+      "attributes": {
+        "categories": {},
+        "last_analysis_stats": {
+          "malicious": 0,
+          "suspicious": 0,
+          "undetected": 32,
+          "harmless": 62,
+          "timeout": 0
+        },
+        "tags": [],
+        "reputation": 0,
+        "tld": "net",
+        "whois": "Administrative city: Reykjavik\nAdministrative country: Iceland\nAdministrative email: 672f6140143ea0a8s@withheldforprivacy.com\nAdministrative state: Capital Region\nCreate date: 2025-06-11 00:00:00\nDomain name: absa-africa.net\nDomain registrar id: 1068\nDomain registrar url: http://www.namecheap.com\nExpiry date: 2026-06-11 00:00:00\nName server 1: dns1.registrar-servers.com\nName server 2: dns2.registrar-servers.com\nQuery time: 2025-06-13 11:08:45\nRegistrant city: ddbf76e4e8cee320\nRegistrant company: 4b7a0912c26a13e2\nRegistrant country: Iceland\nRegistrant email: 672f6140143ea0a8s@withheldforprivacy.com\nRegistrant name: 37bfbc24cafea5d2\nRegistrant phone: ef7c9ebdb324979a\nRegistrant state: 3e0204199d8ebf9c\nRegistrant zip: f206c9d9737ad45d\nTechnical city: Reykjavik\nTechnical country: Iceland\nTechnical email: 672f6140143ea0a8s@withheldforprivacy.com\nTechnical state: Capital Region\nUpdate date: 2025-06-11 00:00:00",
+        "last_dns_records": [
+          {
+            "type": "TXT",
+            "ttl": 1800,
+            "value": "v=spf1 include:spf.privateemail.com ~all"
+          },
+          {
+            "type": "A",
+            "ttl": 1800,
+            "value": "192.64.119.90"
+          },
+          {
+            "type": "SOA",
+            "ttl": 3601,
+            "value": "dns1.registrar-servers.com",
+            "rname": "hostmaster.registrar-servers.com",
+            "serial": 1749670595,
+            "refresh": 43200,
+            "retry": 3600,
+            "expire": 604800,
+            "minimum": 3601
+          },
+          {
+            "type": "NS",
+            "ttl": 1800,
+            "value": "dns1.registrar-servers.com"
+          },
+          {
+            "type": "NS",
+            "ttl": 1800,
+            "value": "dns2.registrar-servers.com"
+          },
+          {
+            "type": "MX",
+            "ttl": 1800,
+            "priority": 10,
+            "value": "mx2.privateemail.com"
+          },
+          {
+            "type": "MX",
+            "ttl": 1800,
+            "priority": 10,
+            "value": "mx1.privateemail.com"
+          }
+        ],
+        "last_https_certificate_date": 1698931804,
+        "rdap": {
+          "handle": "2991025072_DOMAIN_NET-VRSN",
+          "ldh_name": "absa-africa.net",
+          "unicode_name": "absa-africa.net",
+          "events": [
+            {
+              "event_action": "last update of RDAP database",
+              "event_date": "2025-06-14T16:15:32",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "registration",
+              "event_date": "2025-06-11T19:28:40",
+              "event_actor": "",
+              "links": []
+            },
+            {
+              "event_action": "expiration",
+              "event_date": "2026-06-11T19:28:40",
+              "event_actor": "",
+              "links": []
+            }
+          ],
+          "links": [
+            {
+              "href": "https://rdap.namecheap.com/domain/ABSA-AFRICA.NET",
+              "rel": "self",
+              "type": "application/rdap+json",
+              "value": "https://rdap.namecheap.com/domain/ABSA-AFRICA.NET",
+              "title": "",
+              "media": "",
+              "href_lang": []
+            }
+          ],
+          "notices": [
+            {
+              "title": "RDAP Terms of Service",
+              "description": [
+                "By querying Namecheap’s  RDAP Domain Database, you agree to comply with Namecheap’s RDAP Terms of Service, including but not limited to the terms herein,  and you acknowledge and agree that your information will be used in accordance with Namecheap Privacy Policy (https://www.namecheap.com/legal/general/privacy-policy/), including that Namecheap may retain certain details about queries to our RDAP Domain Database for the purposes of detecting and preventing misuse.  If you do not agree to any of these terms, do not access or use ,the RDAP Domain Database.",
+                "Although Namecheap believes the data to be reliable, you agree and acknowledge that any information provided is 'as is' without any guarantee of accuracy.",
+                "You further agree that you will:",
+                "1) Not misuse the RDAP Domain Database. It is intended solely for query-based access and should not be used for or relied upon for any other purpose.",
+                "2) Not use the RDAP Domain Database to allow, enable, or otherwise support the transmission of unsolicited, commercial advertising or solicitations.",
+                "3) Not access the RDAP Domain Database through the use of high volume, automated electronic processes that send queries or data to the systems of Namecheap, any other ICANN-accredited registrar, or any registry operator.",
+                "4) Not compile, repackage, disseminate, or otherwise use the information contained in the RDAP Domain Database in its entirety, or in any substantial portion, without our prior written permission.",
+                "5) You will only use the information contained in the RDAP Domain Database for lawful purposes.",
+                "We reserve the right to restrict or deny your access to the RDAP Domain Database if we suspect that you have failed to comply with these terms.",
+                "We reserve the right to modify this agreement at any time."
+              ],
+              "links": [
+                {
+                  "href": "https://www.namecheap.com/legal/domains/rdap-tos/",
+                  "rel": "alternate",
+                  "type": "text/html",
+                  "value": "https://www.namecheap.com/legal/domains/rdap-tos/",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "Status Codes",
+              "description": [
+                "For more information on domain status codes, please visit https://icann.org/epp"
+              ],
+              "links": [
+                {
+                  "href": "https://icann.org/epp",
+                  "rel": "alternate",
+                  "type": "text/html",
+                  "value": "https://icann.org/epp",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            },
+            {
+              "title": "RDDS Inaccuracy Complaint Form",
+              "description": [
+                "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+              ],
+              "links": [
+                {
+                  "href": "https://icann.org/wicf",
+                  "rel": "help",
+                  "type": "text/html",
+                  "value": "https://rdap.namecheap.com/domain/ABSA-AFRICA.NET",
+                  "title": "",
+                  "media": "",
+                  "href_lang": []
+                }
+              ],
+              "type": ""
+            }
+          ],
+          "nameservers": [
+            {
+              "ldh_name": "dns1.registrar-servers.com",
+              "unicode_name": "dns1.registrar-servers.com",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            },
+            {
+              "ldh_name": "dns2.registrar-servers.com",
+              "unicode_name": "dns2.registrar-servers.com",
+              "object_class_name": "nameserver",
+              "handle": "",
+              "events": [],
+              "links": [],
+              "notices": [],
+              "status": [],
+              "lang": "",
+              "port43": "",
+              "entities": [],
+              "remarks": []
+            }
+          ],
+          "rdap_conformance": [
+            "rdap_level_0",
+            "icann_rdap_response_profile_0",
+            "icann_rdap_technical_implementation_guide_0"
+          ],
+          "entities": [
+            {
+              "object_class_name": "entity",
+              "handle": "1068",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "NAMECHEAP INC"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "tel",
+                  "parameters": {
+                    "type": [
+                      "voice"
+                    ]
+                  },
+                  "type": "uri",
+                  "values": [
+                    "tel:+1.6613102107"
+                  ]
+                },
+                {
+                  "name": "email",
+                  "type": "text",
+                  "values": [
+                    "support@namecheap.com"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "registrar"
+              ],
+              "public_ids": [
+                {
+                  "type": "IANA Registrar ID",
+                  "identifier": "1068"
+                }
+              ],
+              "entities": [
+                {
+                  "object_class_name": "entity",
+                  "vcard_array": [
+                    {
+                      "name": "version",
+                      "type": "text",
+                      "values": [
+                        "4.0"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "fn",
+                      "type": "text",
+                      "values": [
+                        "NAMECHEAP INC"
+                      ],
+                      "parameters": {}
+                    },
+                    {
+                      "name": "tel",
+                      "parameters": {
+                        "type": [
+                          "voice"
+                        ]
+                      },
+                      "type": "uri",
+                      "values": [
+                        "tel:+1.9854014545"
+                      ]
+                    },
+                    {
+                      "name": "email",
+                      "type": "text",
+                      "values": [
+                        "abuse@namecheap.com"
+                      ],
+                      "parameters": {}
+                    }
+                  ],
+                  "roles": [
+                    "abuse"
+                  ],
+                  "handle": "",
+                  "public_ids": [],
+                  "entities": [],
+                  "remarks": [],
+                  "links": [],
+                  "events": [],
+                  "as_event_actor": [],
+                  "status": [],
+                  "port43": "",
+                  "networks": [],
+                  "autnums": [],
+                  "url": "",
+                  "lang": "",
+                  "rdap_conformance": []
+                }
+              ],
+              "remarks": [],
+              "links": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            },
+            {
+              "object_class_name": "entity",
+              "handle": "0C4471AE-EDE6-4D9A-22A8-08DDA8F3041D",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "Redacted for Privacy"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "org",
+                  "type": "text",
+                  "values": [
+                    "Privacy service provided by Withheld for Privacy ehf"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "adr",
+                  "parameters": {
+                    "cc": [
+                      "IS"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "",
+                    "",
+                    "Kalkofnsvegur 2",
+                    "Reykjavik",
+                    "Capital Region",
+                    "101",
+                    ""
+                  ]
+                },
+                {
+                  "name": "tel",
+                  "parameters": {
+                    "type": [
+                      "voice"
+                    ]
+                  },
+                  "type": "uri",
+                  "values": [
+                    "tel:+354.4212434"
+                  ]
+                },
+                {
+                  "name": "email",
+                  "type": "text",
+                  "values": [
+                    "644883ce829944f1bb80a278172234e2.protect@withheldforprivacy.com"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "registrant"
+              ],
+              "remarks": [
+                {
+                  "title": "REDACTED FOR PRIVACY",
+                  "description": [
+                    "Some of the data in this object has been removed."
+                  ],
+                  "type": "object redacted due to authorization",
+                  "links": []
+                }
+              ],
+              "public_ids": [],
+              "entities": [],
+              "links": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            },
+            {
+              "object_class_name": "entity",
+              "handle": "7448C0CA-92CF-41DA-D350-08DDA8EC7158",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "Redacted for Privacy"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "org",
+                  "type": "text",
+                  "values": [
+                    "Privacy service provided by Withheld for Privacy ehf"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "adr",
+                  "parameters": {
+                    "cc": [
+                      "IS"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "",
+                    "",
+                    "Kalkofnsvegur 2",
+                    "Reykjavik",
+                    "Capital Region",
+                    "101",
+                    ""
+                  ]
+                },
+                {
+                  "name": "tel",
+                  "parameters": {
+                    "type": [
+                      "voice"
+                    ]
+                  },
+                  "type": "uri",
+                  "values": [
+                    "tel:+354.4212434"
+                  ]
+                },
+                {
+                  "name": "email",
+                  "type": "text",
+                  "values": [
+                    "644883ce829944f1bb80a278172234e2.protect@withheldforprivacy.com"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "administrative"
+              ],
+              "remarks": [
+                {
+                  "title": "REDACTED FOR PRIVACY",
+                  "description": [
+                    "Some of the data in this object has been removed."
+                  ],
+                  "type": "object redacted due to authorization",
+                  "links": []
+                }
+              ],
+              "public_ids": [],
+              "entities": [],
+              "links": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            },
+            {
+              "object_class_name": "entity",
+              "handle": "DC9F5945-32B0-4F0F-AFA1-08DDA8F25186",
+              "vcard_array": [
+                {
+                  "name": "version",
+                  "type": "text",
+                  "values": [
+                    "4.0"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "fn",
+                  "type": "text",
+                  "values": [
+                    "Redacted for Privacy"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "org",
+                  "type": "text",
+                  "values": [
+                    "Privacy service provided by Withheld for Privacy ehf"
+                  ],
+                  "parameters": {}
+                },
+                {
+                  "name": "adr",
+                  "parameters": {
+                    "cc": [
+                      "IS"
+                    ]
+                  },
+                  "type": "text",
+                  "values": [
+                    "",
+                    "",
+                    "Kalkofnsvegur 2",
+                    "Reykjavik",
+                    "Capital Region",
+                    "101",
+                    ""
+                  ]
+                },
+                {
+                  "name": "tel",
+                  "parameters": {
+                    "type": [
+                      "voice"
+                    ]
+                  },
+                  "type": "uri",
+                  "values": [
+                    "tel:+354.4212434"
+                  ]
+                },
+                {
+                  "name": "email",
+                  "type": "text",
+                  "values": [
+                    "644883ce829944f1bb80a278172234e2.protect@withheldforprivacy.com"
+                  ],
+                  "parameters": {}
+                }
+              ],
+              "roles": [
+                "technical"
+              ],
+              "remarks": [
+                {
+                  "title": "REDACTED FOR PRIVACY",
+                  "description": [
+                    "Some of the data in this object has been removed."
+                  ],
+                  "type": "object redacted due to authorization",
+                  "links": []
+                }
+              ],
+              "public_ids": [],
+              "entities": [],
+              "links": [],
+              "events": [],
+              "as_event_actor": [],
+              "status": [],
+              "port43": "",
+              "networks": [],
+              "autnums": [],
+              "url": "",
+              "lang": "",
+              "rdap_conformance": []
+            }
+          ],
+          "object_class_name": "domain",
+          "status": [
+            "client transfer prohibited",
+            "add period"
+          ],
+          "secure_dns": {
+            "delegation_signed": false,
+            "zone_signed": false,
+            "max_sig_life": 0,
+            "ds_data": [],
+            "key_data": []
+          },
+          "port43": "whois.namecheap.com",
+          "lang": "en",
+          "punycode": "",
+          "type": "",
+          "switch_name": "",
+          "public_ids": [],
+          "remarks": [],
+          "nask0_state": "",
+          "variants": []
+        },
+        "total_votes": {
+          "harmless": 0,
+          "malicious": 0
+        },
+        "last_analysis_results": {
+          "Acronis": {
+            "method": "blacklist",
+            "engine_name": "Acronis",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "0xSI_f33d": {
+            "method": "blacklist",
+            "engine_name": "0xSI_f33d",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Abusix": {
+            "method": "blacklist",
+            "engine_name": "Abusix",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ADMINUSLabs": {
+            "method": "blacklist",
+            "engine_name": "ADMINUSLabs",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Axur": {
+            "method": "blacklist",
+            "engine_name": "Axur",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Criminal IP": {
+            "method": "blacklist",
+            "engine_name": "Criminal IP",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AILabs (MONITORAPP)": {
+            "method": "blacklist",
+            "engine_name": "AILabs (MONITORAPP)",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AlienVault": {
+            "method": "blacklist",
+            "engine_name": "AlienVault",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "alphaMountain.ai": {
+            "method": "blacklist",
+            "engine_name": "alphaMountain.ai",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "AlphaSOC": {
+            "method": "blacklist",
+            "engine_name": "AlphaSOC",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Antiy-AVL": {
+            "method": "blacklist",
+            "engine_name": "Antiy-AVL",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ArcSight Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "ArcSight Threat Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "AutoShun": {
+            "method": "blacklist",
+            "engine_name": "AutoShun",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "benkow.cc": {
+            "method": "blacklist",
+            "engine_name": "benkow.cc",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Bfore.Ai PreCrime": {
+            "method": "blacklist",
+            "engine_name": "Bfore.Ai PreCrime",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "BitDefender": {
+            "method": "blacklist",
+            "engine_name": "BitDefender",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Bkav": {
+            "method": "blacklist",
+            "engine_name": "Bkav",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Blueliv": {
+            "method": "blacklist",
+            "engine_name": "Blueliv",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Certego": {
+            "method": "blacklist",
+            "engine_name": "Certego",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Chong Lua Dao": {
+            "method": "blacklist",
+            "engine_name": "Chong Lua Dao",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CINS Army": {
+            "method": "blacklist",
+            "engine_name": "CINS Army",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Cluster25": {
+            "method": "blacklist",
+            "engine_name": "Cluster25",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "CRDF": {
+            "method": "blacklist",
+            "engine_name": "CRDF",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CSIS Security Group": {
+            "method": "blacklist",
+            "engine_name": "CSIS Security Group",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Snort IP sample list": {
+            "method": "blacklist",
+            "engine_name": "Snort IP sample list",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CMC Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "CMC Threat Intelligence",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Cyan": {
+            "method": "blacklist",
+            "engine_name": "Cyan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Cyble": {
+            "method": "blacklist",
+            "engine_name": "Cyble",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "CyRadar": {
+            "method": "blacklist",
+            "engine_name": "CyRadar",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "DNS8": {
+            "method": "blacklist",
+            "engine_name": "DNS8",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Dr.Web": {
+            "method": "blacklist",
+            "engine_name": "Dr.Web",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Ermes": {
+            "method": "blacklist",
+            "engine_name": "Ermes",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ESET": {
+            "method": "blacklist",
+            "engine_name": "ESET",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ESTsecurity": {
+            "method": "blacklist",
+            "engine_name": "ESTsecurity",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "EmergingThreats": {
+            "method": "blacklist",
+            "engine_name": "EmergingThreats",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Emsisoft": {
+            "method": "blacklist",
+            "engine_name": "Emsisoft",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Forcepoint ThreatSeeker": {
+            "method": "blacklist",
+            "engine_name": "Forcepoint ThreatSeeker",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Fortinet": {
+            "method": "blacklist",
+            "engine_name": "Fortinet",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "G-Data": {
+            "method": "blacklist",
+            "engine_name": "G-Data",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "GCP Abuse Intelligence": {
+            "method": "blacklist",
+            "engine_name": "GCP Abuse Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Google Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Google Safebrowsing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "GreenSnow": {
+            "method": "blacklist",
+            "engine_name": "GreenSnow",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Gridinsoft": {
+            "method": "blacklist",
+            "engine_name": "Gridinsoft",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Heimdal Security": {
+            "method": "blacklist",
+            "engine_name": "Heimdal Security",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Hunt.io Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Hunt.io Intelligence",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "IPsum": {
+            "method": "blacklist",
+            "engine_name": "IPsum",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Juniper Networks": {
+            "method": "blacklist",
+            "engine_name": "Juniper Networks",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Kaspersky": {
+            "method": "blacklist",
+            "engine_name": "Kaspersky",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Lionic": {
+            "method": "blacklist",
+            "engine_name": "Lionic",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Lumu": {
+            "method": "blacklist",
+            "engine_name": "Lumu",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "MalwarePatrol": {
+            "method": "blacklist",
+            "engine_name": "MalwarePatrol",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "MalwareURL": {
+            "method": "blacklist",
+            "engine_name": "MalwareURL",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Malwared": {
+            "method": "blacklist",
+            "engine_name": "Malwared",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Mimecast": {
+            "method": "blacklist",
+            "engine_name": "Mimecast",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Netcraft": {
+            "method": "blacklist",
+            "engine_name": "Netcraft",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "OpenPhish": {
+            "method": "blacklist",
+            "engine_name": "OpenPhish",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Phishing Database": {
+            "method": "blacklist",
+            "engine_name": "Phishing Database",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PhishFort": {
+            "method": "blacklist",
+            "engine_name": "PhishFort",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "PhishLabs": {
+            "method": "blacklist",
+            "engine_name": "PhishLabs",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Phishtank": {
+            "method": "blacklist",
+            "engine_name": "Phishtank",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PREBYTES": {
+            "method": "blacklist",
+            "engine_name": "PREBYTES",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "PrecisionSec": {
+            "method": "blacklist",
+            "engine_name": "PrecisionSec",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Quick Heal": {
+            "method": "blacklist",
+            "engine_name": "Quick Heal",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Quttera": {
+            "method": "blacklist",
+            "engine_name": "Quttera",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SafeToOpen": {
+            "method": "blacklist",
+            "engine_name": "SafeToOpen",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sansec eComscan": {
+            "method": "blacklist",
+            "engine_name": "Sansec eComscan",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Scantitan": {
+            "method": "blacklist",
+            "engine_name": "Scantitan",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SCUMWARE.org": {
+            "method": "blacklist",
+            "engine_name": "SCUMWARE.org",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Seclookup": {
+            "method": "blacklist",
+            "engine_name": "Seclookup",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SecureBrain": {
+            "method": "blacklist",
+            "engine_name": "SecureBrain",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "SOCRadar": {
+            "method": "blacklist",
+            "engine_name": "SOCRadar",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Sophos": {
+            "method": "blacklist",
+            "engine_name": "Sophos",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Spam404": {
+            "method": "blacklist",
+            "engine_name": "Spam404",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "StopForumSpam": {
+            "method": "blacklist",
+            "engine_name": "StopForumSpam",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Sucuri SiteCheck": {
+            "method": "blacklist",
+            "engine_name": "Sucuri SiteCheck",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ThreatHive": {
+            "method": "blacklist",
+            "engine_name": "ThreatHive",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Threatsourcing": {
+            "method": "blacklist",
+            "engine_name": "Threatsourcing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Trustwave": {
+            "method": "blacklist",
+            "engine_name": "Trustwave",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Underworld": {
+            "method": "blacklist",
+            "engine_name": "Underworld",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "URLhaus": {
+            "method": "blacklist",
+            "engine_name": "URLhaus",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "URLQuery": {
+            "method": "blacklist",
+            "engine_name": "URLQuery",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "Viettel Threat Intelligence": {
+            "method": "blacklist",
+            "engine_name": "Viettel Threat Intelligence",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "VIPRE": {
+            "method": "blacklist",
+            "engine_name": "VIPRE",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "VX Vault": {
+            "method": "blacklist",
+            "engine_name": "VX Vault",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ViriBack": {
+            "method": "blacklist",
+            "engine_name": "ViriBack",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Webroot": {
+            "method": "blacklist",
+            "engine_name": "Webroot",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Yandex Safebrowsing": {
+            "method": "blacklist",
+            "engine_name": "Yandex Safebrowsing",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "ZeroCERT": {
+            "method": "blacklist",
+            "engine_name": "ZeroCERT",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "desenmascara.me": {
+            "method": "blacklist",
+            "engine_name": "desenmascara.me",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "malwares.com URL checker": {
+            "method": "blacklist",
+            "engine_name": "malwares.com URL checker",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "securolytics": {
+            "method": "blacklist",
+            "engine_name": "securolytics",
+            "category": "harmless",
+            "result": "clean"
+          },
+          "Xcitium Verdict Cloud": {
+            "method": "blacklist",
+            "engine_name": "Xcitium Verdict Cloud",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "zvelo": {
+            "method": "blacklist",
+            "engine_name": "zvelo",
+            "category": "undetected",
+            "result": "unrated"
+          },
+          "ZeroFox": {
+            "method": "blacklist",
+            "engine_name": "ZeroFox",
+            "category": "undetected",
+            "result": "unrated"
+          }
+        },
+        "last_analysis_date": 1749917086,
+        "creation_date": 1749600000,
+        "last_update_date": 1749600000,
+        "last_modification_date": 1749917849,
+        "last_dns_records_date": 1749917733,
+        "jarm": "29d3fd00029d29d00042d43d0000005d86ccb1a0567e012264097a0315d7a7",
+        "popularity_ranks": {},
+        "last_https_certificate": {
+          "public_key": {
+            "rsa": {
+              "key_size": 4096,
+              "modulus": "bd79b8a6c4f4bf4fb361b00a4ffb017c5b0c25fb938e8974394e01555e131a25274209fe2d56379483902e6de94b0ee289ad036389f601fe95171a4aecbb84f8479a13e35e17050357c686c58ed23e5af6fb85453007dd143c9b8402928a88dbcdc14afaef93eee74cfabb2b07cdb587a822ae93f411e41d78dab71baa3b42e72bf93d2347f001e3a23e62685caca73e5fc8ea51f8ec24679c58f216db3598de38769aae2315abff3d5c618cdfb5d4f0a0fcc8536bfd71ab9afdde061747cc7f6a755839975d18169e6f1b1b016ad31b82195b2ddf8d23936ffec1642537c3b7ecacff2fe1eb6173c3a062047ede584b7f3daae83200b33560055995a2805db6c6f2f6d11688ceae164566f2d96f321ef0040f7f79f14e28251a612d271f66894dca20560742c9c47616dfabda3bd5c616392d69e04faf460389d72f6ef1eb7aac27c8912e500757b1f16c21a7dd6d9382095ac6154cfc786c8735002a727ec50029ba1413b99d231df0b6559813da49b50e04e5f240ffd04767b31f2483ca3befa5e629c314ed414ff0a02614ad4fdc8f2f03eebcbc183dcdfa297e20d5035b3b3ee5edb6058188065c811245878602a5de5b294c881209df47fe842addb24c81a48918dc8541f7241f092c55e435151703e77321ff96351b4e24a7ce7df4b3131111402f71954c42c6d3408debaa04ee0222e1242dc8fb271fec6e3eb9a169",
+              "exponent": "10001"
+            },
+            "algorithm": "RSA"
+          },
+          "thumbprint_sha256": "bd84ffc89b8acb5dc2b7a320f4e0efc49be8f1ad344b364c7137b6de6746010a",
+          "thumbprint": "e5171a89b6b33feb2c8107715e26d50b23408d72",
+          "subject": {
+            "CN": "absa-africa.net"
+          },
+          "validity": {
+            "not_after": "2024-01-25 02:38:45",
+            "not_before": "2023-10-27 02:38:46"
+          },
+          "version": "V3",
+          "extensions": {
+            "certificate_policies": [
+              "2.23.140.1.2.1"
+            ],
+            "extended_key_usage": [
+              "serverAuth",
+              "clientAuth"
+            ],
+            "authority_key_identifier": {
+              "keyid": "142eb317b75856cbae500940e61faf9d8b14c2c6"
+            },
+            "subject_alternative_name": [
+              "*.absa-africa.net",
+              "absa-africa.net"
+            ],
+            "subject_key_identifier": "992fe5a36d618ccf6deb6e37a3488caa646a32b7",
+            "key_usage": [
+              "digitalSignature",
+              "keyEncipherment"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f300f1007600dab6bf6b3fb5b6229f9bc2bb5c6be87091716cbb51848534",
+            "CA": false,
+            "ca_information_access": {
+              "CA Issuers": "http://r3.i.lencr.org/",
+              "OCSP": "http://r3.o.lencr.org"
+            }
+          },
+          "cert_signature": {
+            "signature": "a0f4a0d11c17d400797d5400c97802f8bbb33a680a7124c26fe9229cf9b0c45159ed3aedd00ba420cadbf83a727210671da58206a2d9f2c63e3009641bcc811f26f2149f96920426e312fe9cb213c4277e05c84190173016c1ef2c68ff52317ef4f33a86f7e1fd63ca2fb744935088902353ef21007f22f5188264291a18806a79ec4670d4c4f1bf5fe8998d4c10bca67e7563f7f839a884cdfd74f04f3acfe4c7411e9e21351cec03ce97eebf2a394948b78c3f94e95891adb61069a3d54523beaa16f0e208b52c14eb02e936a6cb66724a939b81f3cb7d315ff88672a3e7c0e3f62d63dfdfcf219ee7e91b0afcf723cc4a300f2eeda1ae34a90b1dec1574db",
+            "signature_algorithm": "sha256RSA"
+          },
+          "serial_number": "34cd1900fbd5009e9211a8bcbbbcd3d78d4",
+          "issuer": {
+            "C": "US",
+            "CN": "R3",
+            "O": "Let's Encrypt"
+          },
+          "size": 1539
+        },
+        "whois_date": 1781136000
+      }
+    }
+  }
+}

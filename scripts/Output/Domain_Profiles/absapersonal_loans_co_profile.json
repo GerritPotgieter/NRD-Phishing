@@ -1,0 +1,105 @@
+{
+  "domain": "absapersonal.loans.co",
+  "securitytrails": {
+    "count": null,
+    "endpoint": "/v1/domain/absapersonal.loans.co/subdomains",
+    "subdomains": []
+  },
+  "viewdns": {
+    "query": {
+      "tool": "propagation_PRO",
+      "domain": "absapersonal.loans.co"
+    },
+    "expectedresponse": "13.248.169.48 76.223.54.146",
+    "response": {
+      "server": [
+        {
+          "location": "Atlanta, USA",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Beauharnois, Canada",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Hong Kong, China",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Johannesburg, South Africa",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "London, United Kingdom",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Los Angeles, USA",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Mumbai, India",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "New York, USA",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Paris, France",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Perth, Australia",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Rotterdam, Netherlands",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Santiago, Chile",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seattle, USA",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Seoul, South Korea",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Singapore, Singapore",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "Sydney, Australia",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        },
+        {
+          "location": "São Paulo, Brazil",
+          "resultvalue": "13.248.169.48 76.223.54.146",
+          "resultstatus": "ok"
+        }
+      ]
+    }
+  },
+  "virustotal": {}
+}
