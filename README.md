@@ -9,21 +9,22 @@ To download the latest lists from the Whois databse we will be using the script 
 Steps to execute the script:
 1. Open a Unix terminal (WSL in my preffered case)
 
-2. ```bash DAY_RANGE=7 ./nrd-list-downloader.sh ```
+2. ```DAY_RANGE=7 ./nrd-list-downloader.sh ```
 
 This should download the latest lists and store them under a created directory called daily/free
 
 If the script does not want to execute my fix was to use the dos2unix command as follows
 
-```bash dos2unix nrd-list-downloader.sh ```
+
+
+```dos2unix nrd-list-downloader.sh ```
+
 Then the script can execute and download as needed. For fruther troubleshooting of the script please consult the Repo from PeterDave.
 
 ## Running the Python files
 Access the repo and run the scripts from root using the following:
 
 ``` python3 scripts/parser.py ```
-
-
 
 ## Using the GO Scanner
 First make sure that GO is installed in your enviroment. My current version is 1.24.5.
