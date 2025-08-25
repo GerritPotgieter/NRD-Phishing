@@ -3,12 +3,18 @@ import re
 from pathlib import Path
 from datetime import datetime
 import sys
+import os
+
+
 
 # Config
 PATTERNS_DIR = Path("./Patterns")  # relative to Scripts/
 RAW_JSONL = Path("./Output/Gungnir_Reports/all.jsonl")
 FILTERED_JSONL = Path("./Output/Gungnir_Reports/filtered.jsonl")
 FILTERED_TXT = Path("./Output/Gungnir_Reports/filtered.txt")
+
+os.makedirs(os.path.dirname(FILTERED_JSONL), exist_ok=True)
+os.makedirs(os.path.dirname(FILTERED_TXT), exist_ok=True)
 
 PATTERN_FILES = [
     "keywords.txt",
