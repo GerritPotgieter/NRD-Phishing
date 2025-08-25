@@ -4,9 +4,11 @@
 # EC2 Go + Python Pipeline Manager
 # ---------------------------
 
+# Paths relative to repo root
 OUTPUT_DIR="Output/Gungnir_Reports"
 LOG_FILE="log.txt"
-GO_INPUT="../Output/Full_Cleaned_Report/total_filtered_domains.txt"
+GO_DIR="GO Scanner"
+GO_INPUT="Output/Full_Cleaned_Report/total_filtered_domains.txt"
 PY_SCRIPT="scripts/ct_scanner.py"
 
 # ---------------------------
@@ -26,7 +28,7 @@ start_pipeline() {
     mkdir -p "$OUTPUT_DIR"
 
     echo "[*] Starting pipeline in background..."
-    nohup sh -c "cd 'GO Scanner' && go run . -r $GO_INPUT | python3 $PY_SCRIPT" > "$LOG_FILE" 2>&1 &
+    nohup sh -c "go run '$GO_DIR' -r '$GO_INPUT' | python3 '$PY_SCRIPT'" > "$LOG_FILE" 2>&1 &
     PIPELINE_PID=$!
     echo "[*] Pipeline started with PID $PIPELINE_PID"
     echo "[*] Logs are being written to $LOG_FILE"
@@ -39,33 +41,5 @@ stop_pipeline() {
         return
     fi
     echo "[*] Stopping processes: $PIDS"
-    kill $PIDS
-    echo "[*] Done."
-}
-
-check_logs() {
-    if [ ! -f "$LOG_FILE" ]; then
-        echo "[!] Log file does not exist yet."
-        return
-    fi
-    echo "[*] Tailing log file ($LOG_FILE)..."
-    tail -f "$LOG_FILE"
-}
-
-# ---------------------------
-# Main
-# ---------------------------
-case "$1" in
-    start)
-        start_pipeline
-        ;;
-    stop)
-        stop_pipeline
-        ;;
-    logs)
-        check_logs
-        ;;
-    *)
-        echo "Usage: $0 {start|stop|logs}"
-        ;;
-esac
+    kill $PID
+    
