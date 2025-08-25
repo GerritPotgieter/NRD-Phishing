@@ -7,7 +7,7 @@
 OUTPUT_DIR="Output/Gungnir_Reports"
 LOG_FILE="log.txt"
 GO_INPUT="../Output/Full_Cleaned_Report/total_filtered_domains.txt"
-PY_SCRIPT="../scripts/ct_scanner.py"
+PY_SCRIPT="/scripts/ct_scanner.py"
 
 # ---------------------------
 # Helper functions
@@ -26,7 +26,7 @@ start_pipeline() {
     mkdir -p "$OUTPUT_DIR"
 
     echo "[*] Starting pipeline in background..."
-    nohup sh -c "go run . -r $GO_INPUT | python3 $PY_SCRIPT" > "$LOG_FILE" 2>&1 &
+    nohup sh -c "cd 'GO SCANNER' && go run . -r $GO_INPUT | python3 $PY_SCRIPT" > "$LOG_FILE" 2>&1 &
     PIPELINE_PID=$!
     echo "[*] Pipeline started with PID $PIPELINE_PID"
     echo "[*] Logs are being written to $LOG_FILE"
