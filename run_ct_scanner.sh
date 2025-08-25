@@ -41,5 +41,33 @@ stop_pipeline() {
         return
     fi
     echo "[*] Stopping processes: $PIDS"
-    kill $PID
-    
+    kill $PIDS
+    echo "[*] Done."
+}
+
+check_logs() {
+    if [ ! -f "$LOG_FILE" ]; then
+        echo "[!] Log file does not exist yet."
+        return
+    fi
+    echo "[*] Tailing log file ($LOG_FILE)..."
+    tail -f "$LOG_FILE"
+}
+
+# ---------------------------
+# Main
+# ---------------------------
+case "$1" in
+    start)
+        start_pipeline
+        ;;
+    stop)
+        stop_pipeline
+        ;;
+    logs)
+        check_logs
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|logs}"
+        ;;
+esac
