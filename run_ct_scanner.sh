@@ -7,7 +7,7 @@
 OUTPUT_DIR="Output/Gungnir_Reports"
 LOG_FILE="log.txt"
 GO_INPUT="../Output/Full_Cleaned_Report/total_filtered_domains.txt"
-PY_SCRIPT="/scripts/ct_scanner.py"
+PY_SCRIPT="scripts/ct_scanner.py"
 
 # ---------------------------
 # Helper functions
