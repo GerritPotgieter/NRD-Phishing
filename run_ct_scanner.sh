@@ -28,7 +28,7 @@ start_pipeline() {
     mkdir -p "$OUTPUT_DIR"
 
     echo "[*] Starting pipeline in background..."
-    nohup sh -c "go run '$GO_DIR' -r '$GO_INPUT' | python3 '$PY_SCRIPT'" > "$LOG_FILE" 2>&1 &
+    nohup sh -c "cd '$GO_DIR' && go run ./... -r '../$GO_INPUT' | python3 ../$PY_SCRIPT" > "$LOG_FILE" 2>&1 &
     PIPELINE_PID=$!
     echo "[*] Pipeline started with PID $PIPELINE_PID"
     echo "[*] Logs are being written to $LOG_FILE"
@@ -54,6 +54,12 @@ check_logs() {
     tail -f "$LOG_FILE"
 }
 
+restart_pipeline() {
+    echo "[*] Restarting pipeline..."
+    stop_pipeline
+    start_pipeline
+}
+
 # ---------------------------
 # Main
 # ---------------------------
@@ -67,7 +73,10 @@ case "$1" in
     logs)
         check_logs
         ;;
+    restart)
+        restart_pipeline
+        ;;
     *)
-        echo "Usage: $0 {start|stop|logs}"
+        echo "Usage: $0 {start|stop|logs|restart}"
         ;;
 esac
